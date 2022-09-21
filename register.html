@@ -1,0 +1,46 @@
+<html>
+<head><title>regform</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div class="container">
+<h2>Registration Form</h2><br>
+<form>
+<div class="input"> 
+<label id="uname">Username</label><br>
+<input type="text" name="uname" placeholder="username" id="tuname" required /><br><br>
+<label id="email">EmailID</label><br>
+<input type="email" name="email" placeholder="Email" id="temail" required /><br><br>
+<label id="psw">Password</label><br>
+<input type="password" name="password" placeholder="Password" id="tpsw" required /><br><br>
+<input type="password" name="password" placeholder="Re-type Password" id="tpsw" required /><br><br>
+<label id="num">MobileNumber</label> <br>  
+<input type="number" maxlength="10" id="tnum" required/><br><br>               
+</div> <br>                    
+<div class="radios">
+<label id="gen">Gender</label>
+<input type="radio" name="radiogroup1" id="rd1">
+<label for="rd1">Male</label>
+<input type="radio" name="radiogroup1" id="rd2">
+<label for="rd2">Female</label>
+<input type="radio" name="radiogroup1" id="rd3">
+<label for="rd3">Others</label>
+</div><br>
+<div class="options">
+<label id="city">City</label>
+<select>
+<option>Select a city</option>
+<option>Chennai</option>
+<option>Trichy</option>
+<option>Tirunelveli</option>
+<option>Tuticorin</option>
+</select>                          
+</div><br>
+<div class="check">
+<input type="checkbox" id="cb1">
+<label for="cb1">I agree with terms and conditions</label>
+</div>     <br>                 
+<input class="button" type="submit" value="Register" /></div>
+</form>               
+</body>
+</html>

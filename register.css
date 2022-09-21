@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	background: #f7f4f4;
+	background-image: url('bgimg.jpg');
+}
+
+	h2 {
+		font-size: 20px;
+		font-family: cursive;
+	}
+	.container {
+		text-align: center;
+		padding-bottom: 15px;
+		margin: 20px auto;
+		width: 363px; 
+		height: 500px;
+		background-color: rgba(143, 188, 143, 0.37);
+		border: 2px solid rgba(78, 41, 83, 0.808);
+		border-radius: 8px
+		
+	}
+	form{
+		margin: 0 30px;
+	  }
+	  #uname{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #email{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #psw{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #num{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #gen{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #city{
+		float: left;
+		font-family: fantasy;
+	  }
+	  #tuname{
+		width: 300px;
+		height: 30px;
+		border-radius: 7px;
+	  }
+	  #temail{
+		width: 300px;
+		height: 30px;
+		border-radius: 7px;
+	  }
+	  #tpsw{
+		width: 300px;
+		height: 30px;
+		border-radius: 7px;
+	  }
+	  #tnum{
+		width: 300px;
+		height: 30px;
+		border-radius: 7px;
+	  }
+	  .button{
+		width: 100px;
+		height: 30px;
+		border-radius: 7px;
+	  }
+	  select{
+		border-radius: 5px;
+	  }
+	  
